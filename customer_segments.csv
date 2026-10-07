@@ -1,0 +1,501 @@
+CustomerID,Gender,Age,AnnualIncome_k,SpendingScore,OrdersPerYear,Region,AvgOrderValue,Cluster,Segment
+1001,Male,28,28.2,35.1,1,West,2500.0,1,Low-Value Customers
+1002,Male,33,90.9,77.6,11,North,2500.0,0,High-Value Customers
+1003,Male,55,49.8,45.1,6,South,2500.0,2,Regular Engaged Customers
+1004,Female,42,61.7,33.0,5,South,2500.0,3,High-Income Low-Spend
+1005,Male,23,26.8,20.2,3,West,1804.53,1,Low-Value Customers
+1006,Male,54,34.1,55.3,6,North,2500.0,2,Regular Engaged Customers
+1007,Female,57,57.5,69.0,3,South,2500.0,2,Regular Engaged Customers
+1008,Male,67,36.7,66.5,5,North,2500.0,2,Regular Engaged Customers
+1009,Female,24,19.9,30.3,1,West,2500.0,1,Low-Value Customers
+1010,Female,50,93.2,70.0,8,East,2500.0,0,High-Value Customers
+1011,Female,37,67.5,85.7,7,South,2500.0,0,High-Value Customers
+1012,Male,67,37.2,66.0,5,South,2500.0,2,Regular Engaged Customers
+1013,Female,43,63.1,27.6,4,North,2500.0,3,High-Income Low-Spend
+1014,Female,44,48.6,62.2,6,West,2500.0,2,Regular Engaged Customers
+1015,Female,55,92.4,74.3,8,East,2500.0,0,High-Value Customers
+1016,Female,22,38.2,26.0,6,South,1655.33,1,Low-Value Customers
+1017,Female,39,65.6,38.7,1,South,2500.0,3,High-Income Low-Spend
+1018,Male,18,46.0,32.6,4,East,2500.0,1,Low-Value Customers
+1019,Female,40,41.8,77.0,7,East,2500.0,2,Regular Engaged Customers
+1020,Male,37,63.2,24.4,1,South,2500.0,3,High-Income Low-Spend
+1021,Male,54,50.5,37.7,4,South,2500.0,2,Regular Engaged Customers
+1022,Female,33,63.4,78.5,1,East,2500.0,3,High-Income Low-Spend
+1023,Female,57,49.5,52.2,1,East,2500.0,2,Regular Engaged Customers
+1024,Male,43,54.3,24.4,4,East,2500.0,3,High-Income Low-Spend
+1025,Female,41,50.0,47.6,6,North,2500.0,2,Regular Engaged Customers
+1026,Female,30,56.4,30.0,4,South,2500.0,3,High-Income Low-Spend
+1027,Male,31,89.3,70.4,5,East,2500.0,0,High-Value Customers
+1028,Male,26,22.4,34.3,5,West,1536.64,1,Low-Value Customers
+1029,Male,29,22.1,30.8,4,East,1701.7,1,Low-Value Customers
+1030,Female,19,56.2,35.9,5,South,2500.0,1,Low-Value Customers
+1031,Male,39,88.5,32.2,5,East,2500.0,3,High-Income Low-Spend
+1032,Male,70,39.9,46.2,6,North,2500.0,2,Regular Engaged Customers
+1033,Female,46,68.7,67.7,14,North,2500.0,0,High-Value Customers
+1034,Male,45,66.2,87.2,7,East,2500.0,0,High-Value Customers
+1035,Female,40,81.7,65.1,8,West,2500.0,0,High-Value Customers
+1036,Female,40,42.7,28.2,2,West,2500.0,1,Low-Value Customers
+1037,Male,24,35.5,28.2,5,East,2002.2,1,Low-Value Customers
+1038,Female,29,85.3,74.2,8,North,2500.0,0,High-Value Customers
+1039,Female,19,51.3,44.5,5,West,2500.0,1,Low-Value Customers
+1040,Male,22,77.1,31.6,1,South,2500.0,3,High-Income Low-Spend
+1041,Male,42,79.4,83.6,8,South,2500.0,0,High-Value Customers
+1042,Male,54,56.7,68.5,1,West,2500.0,2,Regular Engaged Customers
+1043,Male,33,66.2,12.2,4,East,2019.1,3,High-Income Low-Spend
+1044,Male,52,62.0,81.4,4,East,2500.0,2,Regular Engaged Customers
+1045,Female,45,56.8,49.0,6,South,2500.0,2,Regular Engaged Customers
+1046,Female,35,60.6,61.6,5,West,2500.0,0,High-Value Customers
+1047,Female,47,58.1,89.8,6,South,2500.0,0,High-Value Customers
+1048,Female,41,69.1,72.2,9,East,2500.0,0,High-Value Customers
+1049,Male,38,75.2,27.9,5,West,2500.0,3,High-Income Low-Spend
+1050,Female,24,60.3,16.3,6,East,1638.15,3,High-Income Low-Spend
+1051,Female,36,29.5,54.3,5,North,2500.0,1,Low-Value Customers
+1052,Female,33,38.3,29.8,3,South,2500.0,1,Low-Value Customers
+1053,Female,55,56.0,57.0,3,South,2500.0,2,Regular Engaged Customers
+1054,Male,43,78.1,33.9,5,West,2500.0,3,High-Income Low-Spend
+1055,Female,33,57.8,20.2,1,East,2500.0,3,High-Income Low-Spend
+1056,Female,54,41.2,50.2,1,South,2500.0,2,Regular Engaged Customers
+1057,Female,33,88.5,71.4,8,East,2500.0,0,High-Value Customers
+1058,Female,23,83.8,26.7,5,East,2500.0,3,High-Income Low-Spend
+1059,Male,43,53.2,28.9,2,South,2500.0,3,High-Income Low-Spend
+1060,Female,24,43.1,30.9,2,South,2500.0,1,Low-Value Customers
+1061,Female,49,66.7,48.7,4,West,2500.0,2,Regular Engaged Customers
+1062,Female,57,79.3,87.6,5,East,2500.0,0,High-Value Customers
+1063,Male,28,73.1,36.9,4,North,2500.0,3,High-Income Low-Spend
+1064,Male,40,28.4,39.3,1,East,2500.0,1,Low-Value Customers
+1065,Male,36,80.4,27.9,1,East,2500.0,3,High-Income Low-Spend
+1066,Male,34,53.9,46.9,1,East,2500.0,1,Low-Value Customers
+1067,Male,32,86.8,39.8,5,East,2500.0,3,High-Income Low-Spend
+1068,Female,43,79.0,85.8,5,West,2500.0,0,High-Value Customers
+1069,Female,33,24.3,35.3,3,South,2500.0,1,Low-Value Customers
+1070,Male,38,74.7,71.8,4,South,2500.0,0,High-Value Customers
+1071,Female,24,27.0,35.2,1,North,2500.0,1,Low-Value Customers
+1072,Male,48,60.8,72.3,5,East,2500.0,2,Regular Engaged Customers
+1073,Female,63,45.3,52.7,6,South,2500.0,2,Regular Engaged Customers
+1074,Male,18,37.6,52.0,3,South,2500.0,1,Low-Value Customers
+1075,Male,27,43.5,41.0,1,East,2500.0,1,Low-Value Customers
+1076,Female,29,77.5,70.9,11,South,2500.0,0,High-Value Customers
+1077,Male,40,51.8,65.3,1,South,2500.0,2,Regular Engaged Customers
+1078,Male,33,65.9,24.2,6,South,2500.0,3,High-Income Low-Spend
+1079,Male,46,66.1,8.8,5,South,1163.36,3,High-Income Low-Spend
+1080,Female,56,45.1,65.8,3,North,2500.0,2,Regular Engaged Customers
+1081,Female,54,57.4,34.7,1,West,2500.0,3,High-Income Low-Spend
+1082,Male,35,93.2,75.4,10,North,2500.0,0,High-Value Customers
+1083,Female,54,41.0,70.0,5,South,2500.0,2,Regular Engaged Customers
+1084,Female,18,30.0,37.5,4,East,2500.0,1,Low-Value Customers
+1085,Male,18,30.8,26.2,2,North,2500.0,1,Low-Value Customers
+1086,Male,18,31.7,24.7,5,East,1565.98,1,Low-Value Customers
+1087,Female,43,66.4,24.5,4,East,2500.0,3,High-Income Low-Spend
+1088,Female,36,61.2,68.6,5,East,2500.0,0,High-Value Customers
+1089,Female,18,39.6,39.3,1,South,2500.0,1,Low-Value Customers
+1090,Female,36,65.6,31.1,4,North,2500.0,3,High-Income Low-Spend
+1091,Male,18,25.4,32.3,5,West,1640.84,1,Low-Value Customers
+1092,Female,18,71.8,38.7,4,South,2500.0,3,High-Income Low-Spend
+1093,Female,47,66.6,76.8,2,West,2500.0,2,Regular Engaged Customers
+1094,Male,24,86.3,68.2,6,North,2500.0,0,High-Value Customers
+1095,Female,31,58.1,76.3,5,North,2500.0,0,High-Value Customers
+1096,Female,39,73.0,30.9,4,West,2500.0,3,High-Income Low-Spend
+1097,Male,55,62.2,77.5,10,West,2500.0,0,High-Value Customers
+1098,Male,35,23.8,28.9,6,West,1146.37,1,Low-Value Customers
+1099,Male,30,40.0,29.8,2,West,2500.0,1,Low-Value Customers
+1100,Male,54,39.5,54.5,5,North,2500.0,2,Regular Engaged Customers
+1101,Female,45,47.3,87.1,1,West,2500.0,2,Regular Engaged Customers
+1102,Male,38,59.6,33.2,4,East,2500.0,3,High-Income Low-Spend
+1103,Male,32,49.8,33.9,5,North,2500.0,1,Low-Value Customers
+1104,Male,30,57.9,59.1,7,North,2500.0,0,High-Value Customers
+1105,Male,41,33.7,56.6,5,West,2500.0,2,Regular Engaged Customers
+1106,Male,38,79.9,12.1,6,South,1611.32,3,High-Income Low-Spend
+1107,Male,43,72.6,63.3,9,West,2500.0,0,High-Value Customers
+1108,Female,18,44.5,17.1,3,North,2500.0,1,Low-Value Customers
+1109,Male,26,49.7,30.2,2,South,2500.0,1,Low-Value Customers
+1110,Female,47,54.7,60.9,4,South,2500.0,2,Regular Engaged Customers
+1111,Male,41,56.2,81.9,2,South,2500.0,2,Regular Engaged Customers
+1112,Male,32,39.3,55.9,1,East,2500.0,1,Low-Value Customers
+1113,Male,42,96.6,89.9,5,West,2500.0,0,High-Value Customers
+1114,Male,38,68.0,30.5,3,West,2500.0,3,High-Income Low-Spend
+1115,Female,26,22.0,33.4,4,East,1837.0,1,Low-Value Customers
+1116,Male,49,25.8,65.9,6,North,2500.0,2,Regular Engaged Customers
+1117,Male,45,39.2,38.5,3,West,2500.0,2,Regular Engaged Customers
+1118,Female,31,81.5,22.2,5,East,2500.0,3,High-Income Low-Spend
+1119,Female,38,78.0,76.6,10,East,2500.0,0,High-Value Customers
+1120,Female,31,50.7,15.6,3,East,2500.0,1,Low-Value Customers
+1121,Male,24,72.5,23.8,9,West,1917.22,3,High-Income Low-Spend
+1122,Female,20,70.2,17.8,3,West,2500.0,3,High-Income Low-Spend
+1123,Male,27,15.0,34.4,7,East,737.14,1,Low-Value Customers
+1124,Female,39,78.1,88.2,7,East,2500.0,0,High-Value Customers
+1125,Male,22,15.2,38.4,3,East,1945.6,1,Low-Value Customers
+1126,Female,34,76.5,72.2,5,South,2500.0,0,High-Value Customers
+1127,Male,47,58.9,88.5,3,South,2500.0,2,Regular Engaged Customers
+1128,Female,22,57.2,43.3,3,East,2500.0,1,Low-Value Customers
+1129,Male,20,32.7,32.7,3,North,2500.0,1,Low-Value Customers
+1130,Male,35,67.7,26.1,1,South,2500.0,3,High-Income Low-Spend
+1131,Male,23,47.1,18.3,3,East,2500.0,1,Low-Value Customers
+1132,Male,44,43.1,50.7,8,West,2500.0,2,Regular Engaged Customers
+1133,Female,40,53.6,34.0,2,East,2500.0,3,High-Income Low-Spend
+1134,Female,38,78.8,73.1,10,South,2500.0,0,High-Value Customers
+1135,Female,29,61.2,22.1,3,South,2500.0,3,High-Income Low-Spend
+1136,Female,34,44.3,49.1,8,East,2500.0,2,Regular Engaged Customers
+1137,Male,42,42.7,42.1,3,East,2500.0,2,Regular Engaged Customers
+1138,Male,37,62.3,67.5,7,North,2500.0,0,High-Value Customers
+1139,Male,41,50.4,44.9,11,East,2057.24,0,High-Value Customers
+1140,Male,23,38.7,19.0,6,South,1225.5,1,Low-Value Customers
+1141,Male,51,78.6,64.5,8,East,2500.0,0,High-Value Customers
+1142,Male,34,92.5,86.1,7,West,2500.0,0,High-Value Customers
+1143,Female,30,32.2,62.6,7,West,2500.0,1,Low-Value Customers
+1144,Female,45,50.5,30.7,6,East,2500.0,2,Regular Engaged Customers
+1145,Male,29,74.9,80.7,6,South,2500.0,0,High-Value Customers
+1146,Male,18,34.7,28.7,3,South,2500.0,1,Low-Value Customers
+1147,Female,38,69.7,77.6,8,North,2500.0,0,High-Value Customers
+1148,Female,33,63.5,28.8,1,West,2500.0,3,High-Income Low-Spend
+1149,Male,46,75.0,78.4,10,West,2500.0,0,High-Value Customers
+1150,Female,18,18.3,34.7,3,West,2116.7,1,Low-Value Customers
+1151,Female,53,37.4,62.3,7,South,2500.0,2,Regular Engaged Customers
+1152,Male,56,39.4,31.8,7,South,1789.89,2,Regular Engaged Customers
+1153,Male,35,44.4,23.2,4,West,2500.0,1,Low-Value Customers
+1154,Female,43,85.1,20.1,4,East,2500.0,3,High-Income Low-Spend
+1155,Male,32,38.6,20.8,4,East,2007.2,1,Low-Value Customers
+1156,Female,41,69.0,30.0,3,South,2500.0,3,High-Income Low-Spend
+1157,Male,54,64.2,72.1,7,South,2500.0,0,High-Value Customers
+1158,Female,43,51.5,16.2,1,East,2500.0,3,High-Income Low-Spend
+1159,Male,36,55.7,24.5,5,West,2500.0,3,High-Income Low-Spend
+1160,Female,46,44.3,51.7,6,South,2500.0,2,Regular Engaged Customers
+1161,Female,30,31.1,30.3,5,West,1884.66,1,Low-Value Customers
+1162,Male,55,28.0,62.2,3,North,2500.0,2,Regular Engaged Customers
+1163,Female,36,48.2,34.9,3,South,2500.0,1,Low-Value Customers
+1164,Female,25,44.8,28.3,3,West,2500.0,1,Low-Value Customers
+1165,Female,43,61.8,22.5,2,West,2500.0,3,High-Income Low-Spend
+1166,Male,34,53.1,85.3,12,West,2500.0,0,High-Value Customers
+1167,Male,64,25.7,63.0,8,South,2023.88,2,Regular Engaged Customers
+1168,Male,47,43.0,32.9,6,West,2357.83,2,Regular Engaged Customers
+1169,Female,34,77.4,62.4,9,West,2500.0,0,High-Value Customers
+1170,Female,61,34.2,42.5,1,West,2500.0,2,Regular Engaged Customers
+1171,Female,40,68.0,62.5,8,North,2500.0,0,High-Value Customers
+1172,Male,31,56.2,23.0,6,East,2154.33,3,High-Income Low-Spend
+1173,Male,31,36.7,38.2,1,West,2500.0,1,Low-Value Customers
+1174,Male,52,43.5,49.8,6,West,2500.0,2,Regular Engaged Customers
+1175,Male,21,53.9,37.5,1,North,2500.0,1,Low-Value Customers
+1176,Female,35,15.0,25.8,5,West,774.0,1,Low-Value Customers
+1177,Male,40,57.4,67.1,10,North,2500.0,0,High-Value Customers
+1178,Female,34,53.3,54.4,3,South,2500.0,1,Low-Value Customers
+1179,Female,46,31.8,64.5,6,East,2500.0,2,Regular Engaged Customers
+1180,Female,20,63.6,20.2,7,South,1835.31,3,High-Income Low-Spend
+1181,Female,39,58.0,54.6,3,East,2500.0,3,High-Income Low-Spend
+1182,Female,45,34.0,41.0,5,North,2500.0,2,Regular Engaged Customers
+1183,Female,24,44.0,24.6,1,East,2500.0,1,Low-Value Customers
+1184,Female,36,64.1,69.3,13,East,2500.0,0,High-Value Customers
+1185,Male,52,44.5,35.5,4,East,2500.0,2,Regular Engaged Customers
+1186,Female,37,56.7,36.2,2,South,2500.0,3,High-Income Low-Spend
+1187,Female,40,68.0,79.6,5,South,2500.0,0,High-Value Customers
+1188,Male,25,35.6,24.7,4,South,2198.3,1,Low-Value Customers
+1189,Male,38,67.0,24.1,6,South,2500.0,3,High-Income Low-Spend
+1190,Male,25,34.9,33.0,6,East,1919.5,1,Low-Value Customers
+1191,Female,39,49.7,34.2,5,South,2500.0,3,High-Income Low-Spend
+1192,Male,38,42.9,33.7,2,South,2500.0,1,Low-Value Customers
+1193,Female,27,35.5,24.1,2,South,2500.0,1,Low-Value Customers
+1194,Female,53,34.3,46.1,2,North,2500.0,2,Regular Engaged Customers
+1195,Male,29,43.5,34.3,5,East,2500.0,1,Low-Value Customers
+1196,Male,27,41.9,35.0,3,West,2500.0,1,Low-Value Customers
+1197,Male,31,92.4,23.9,3,South,2500.0,3,High-Income Low-Spend
+1198,Male,55,44.5,39.5,7,West,2500.0,2,Regular Engaged Customers
+1199,Male,26,26.9,43.9,4,East,2500.0,1,Low-Value Customers
+1200,Female,32,96.3,84.6,7,North,2500.0,0,High-Value Customers
+1201,Female,66,43.6,54.7,4,South,2500.0,2,Regular Engaged Customers
+1202,Female,57,46.8,55.2,3,North,2500.0,2,Regular Engaged Customers
+1203,Female,37,67.2,16.0,1,North,2500.0,3,High-Income Low-Spend
+1204,Male,30,15.0,34.1,2,South,2500.0,1,Low-Value Customers
+1205,Female,36,33.1,38.6,2,South,2500.0,1,Low-Value Customers
+1206,Male,27,45.4,27.4,5,West,2487.92,1,Low-Value Customers
+1207,Male,20,40.9,41.2,4,North,2500.0,1,Low-Value Customers
+1208,Male,53,59.6,15.6,2,West,2500.0,3,High-Income Low-Spend
+1209,Female,31,43.0,33.0,1,North,2500.0,1,Low-Value Customers
+1210,Female,42,54.5,38.4,10,North,2092.8,0,High-Value Customers
+1211,Male,39,74.4,23.6,1,East,2500.0,3,High-Income Low-Spend
+1212,Male,30,56.0,15.0,7,West,1200.0,3,High-Income Low-Spend
+1213,Male,28,41.8,28.9,3,East,2500.0,1,Low-Value Customers
+1214,Male,60,41.7,60.8,5,North,2500.0,2,Regular Engaged Customers
+1215,Male,32,53.9,10.2,3,North,1785.0,3,High-Income Low-Spend
+1216,Female,36,53.9,27.7,4,South,2500.0,3,High-Income Low-Spend
+1217,Male,18,28.8,36.1,4,South,2500.0,1,Low-Value Customers
+1218,Female,18,39.6,42.2,5,West,2500.0,1,Low-Value Customers
+1219,Male,51,37.3,48.1,6,South,2500.0,2,Regular Engaged Customers
+1220,Male,44,82.6,79.3,9,North,2500.0,0,High-Value Customers
+1221,Female,43,84.4,86.7,5,West,2500.0,0,High-Value Customers
+1222,Female,28,93.5,80.6,2,North,2500.0,0,High-Value Customers
+1223,Female,29,76.5,25.5,3,North,2500.0,3,High-Income Low-Spend
+1224,Male,64,31.5,46.2,5,South,2500.0,2,Regular Engaged Customers
+1225,Female,46,81.0,87.1,8,South,2500.0,0,High-Value Customers
+1226,Female,56,39.4,55.7,5,East,2500.0,2,Regular Engaged Customers
+1227,Female,28,45.7,37.6,3,West,2500.0,1,Low-Value Customers
+1228,Female,28,68.7,27.7,4,West,2500.0,3,High-Income Low-Spend
+1229,Female,55,62.2,31.8,6,South,2500.0,2,Regular Engaged Customers
+1230,Female,27,53.9,28.2,4,West,2500.0,1,Low-Value Customers
+1231,Female,21,34.5,34.5,5,East,2380.5,1,Low-Value Customers
+1232,Female,45,90.1,77.1,6,North,2500.0,0,High-Value Customers
+1233,Female,70,45.9,47.1,4,West,2500.0,2,Regular Engaged Customers
+1234,Female,27,78.3,24.7,4,North,2500.0,3,High-Income Low-Spend
+1235,Female,51,49.3,45.7,3,East,2500.0,2,Regular Engaged Customers
+1236,Male,54,48.0,58.7,3,West,2500.0,2,Regular Engaged Customers
+1237,Female,48,66.1,72.8,4,North,2500.0,2,Regular Engaged Customers
+1238,Female,63,48.3,61.7,7,South,2500.0,2,Regular Engaged Customers
+1239,Female,46,20.9,24.6,2,South,2500.0,1,Low-Value Customers
+1240,Female,21,27.2,39.8,1,West,2500.0,1,Low-Value Customers
+1241,Female,55,42.5,60.3,6,North,2500.0,2,Regular Engaged Customers
+1242,Female,57,38.3,78.3,5,East,2500.0,2,Regular Engaged Customers
+1243,Male,18,28.0,14.6,3,South,1362.67,1,Low-Value Customers
+1244,Female,34,62.8,46.1,5,North,2500.0,3,High-Income Low-Spend
+1245,Female,42,57.8,19.0,4,East,2500.0,3,High-Income Low-Spend
+1246,Female,53,23.4,53.0,5,West,2480.4,2,Regular Engaged Customers
+1247,Female,34,59.1,39.8,4,East,2500.0,3,High-Income Low-Spend
+1248,Female,43,82.3,88.8,6,North,2500.0,0,High-Value Customers
+1249,Male,39,80.3,84.1,6,North,2500.0,0,High-Value Customers
+1250,Male,49,86.8,90.9,12,South,2500.0,0,High-Value Customers
+1251,Female,28,68.2,28.1,4,East,2500.0,3,High-Income Low-Spend
+1252,Female,46,27.1,56.0,3,East,2500.0,2,Regular Engaged Customers
+1253,Female,43,65.5,67.0,8,North,2500.0,0,High-Value Customers
+1254,Female,28,43.8,53.9,4,East,2500.0,1,Low-Value Customers
+1255,Male,30,27.2,19.1,6,South,865.87,1,Low-Value Customers
+1256,Female,27,56.5,27.6,4,East,2500.0,3,High-Income Low-Spend
+1257,Female,43,39.0,68.5,3,West,2500.0,2,Regular Engaged Customers
+1258,Male,18,47.4,36.9,2,East,2500.0,1,Low-Value Customers
+1259,Female,18,30.6,31.5,5,North,1927.8,1,Low-Value Customers
+1260,Female,26,67.1,34.1,1,West,2500.0,3,High-Income Low-Spend
+1261,Male,34,26.2,35.3,3,North,2500.0,1,Low-Value Customers
+1262,Female,61,47.5,28.8,3,West,2500.0,2,Regular Engaged Customers
+1263,Female,44,72.7,82.8,9,North,2500.0,0,High-Value Customers
+1264,Female,31,35.9,13.5,2,East,2423.25,1,Low-Value Customers
+1265,Male,55,31.1,61.9,7,North,2500.0,2,Regular Engaged Customers
+1266,Female,27,15.0,19.2,7,North,411.43,1,Low-Value Customers
+1267,Female,38,51.2,90.4,7,East,2500.0,0,High-Value Customers
+1268,Female,34,40.8,36.6,4,East,2500.0,1,Low-Value Customers
+1269,Female,31,60.8,41.7,1,North,2500.0,3,High-Income Low-Spend
+1270,Male,30,49.4,44.0,2,West,2500.0,1,Low-Value Customers
+1271,Female,35,47.3,57.7,1,South,2500.0,1,Low-Value Customers
+1272,Male,23,34.9,27.1,1,South,2500.0,1,Low-Value Customers
+1273,Male,18,33.7,35.7,2,South,2500.0,1,Low-Value Customers
+1274,Male,53,68.1,39.6,5,South,2500.0,2,Regular Engaged Customers
+1275,Female,43,71.1,40.3,4,North,2500.0,3,High-Income Low-Spend
+1276,Male,46,79.4,75.1,8,South,2500.0,0,High-Value Customers
+1277,Male,60,71.8,82.2,11,North,2500.0,0,High-Value Customers
+1278,Female,46,68.1,6.5,5,North,885.3,3,High-Income Low-Spend
+1279,Male,32,56.7,56.9,7,South,2500.0,0,High-Value Customers
+1280,Male,43,26.5,57.9,5,East,2500.0,2,Regular Engaged Customers
+1281,Female,23,38.8,59.7,5,West,2500.0,1,Low-Value Customers
+1282,Male,34,46.4,46.8,3,South,2500.0,1,Low-Value Customers
+1283,Female,18,36.1,40.1,1,South,2500.0,1,Low-Value Customers
+1284,Male,25,31.1,47.0,4,West,2500.0,1,Low-Value Customers
+1285,Male,41,74.8,27.7,4,East,2500.0,3,High-Income Low-Spend
+1286,Female,33,48.8,79.5,8,West,2500.0,0,High-Value Customers
+1287,Male,35,53.7,47.7,1,West,2500.0,1,Low-Value Customers
+1288,Female,40,80.8,100.0,11,West,2500.0,0,High-Value Customers
+1289,Male,46,63.7,20.1,6,West,2133.95,3,High-Income Low-Spend
+1290,Male,19,53.9,30.9,6,South,1833.4,1,Low-Value Customers
+1291,Female,48,17.6,60.5,4,South,2500.0,2,Regular Engaged Customers
+1292,Female,27,37.1,29.3,5,South,2174.06,1,Low-Value Customers
+1293,Female,38,36.8,62.5,4,North,2500.0,2,Regular Engaged Customers
+1294,Female,18,44.7,43.2,3,East,2500.0,1,Low-Value Customers
+1295,Female,34,49.1,36.7,6,East,2500.0,3,High-Income Low-Spend
+1296,Female,44,30.4,50.1,5,West,2500.0,2,Regular Engaged Customers
+1297,Female,46,47.9,50.1,7,North,2500.0,2,Regular Engaged Customers
+1298,Female,54,35.0,45.5,2,South,2500.0,2,Regular Engaged Customers
+1299,Male,54,38.5,28.9,4,North,2500.0,2,Regular Engaged Customers
+1300,Male,27,85.3,12.7,1,West,2500.0,3,High-Income Low-Spend
+1301,Male,61,55.6,46.8,4,South,2500.0,2,Regular Engaged Customers
+1302,Female,31,15.0,13.4,2,North,1005.0,1,Low-Value Customers
+1303,Male,49,63.2,28.9,6,East,2500.0,3,High-Income Low-Spend
+1304,Male,54,61.7,27.8,8,West,2144.08,2,Regular Engaged Customers
+1305,Female,38,52.3,43.8,5,West,2500.0,3,High-Income Low-Spend
+1306,Female,41,63.5,68.2,8,North,2500.0,0,High-Value Customers
+1307,Male,50,73.4,78.7,9,South,2500.0,0,High-Value Customers
+1308,Female,27,76.1,35.4,9,North,2500.0,3,High-Income Low-Spend
+1309,Female,24,53.9,39.7,5,South,2500.0,1,Low-Value Customers
+1310,Male,23,34.0,37.4,1,East,2500.0,1,Low-Value Customers
+1311,Female,39,76.1,88.0,5,South,2500.0,0,High-Value Customers
+1312,Female,28,52.0,65.4,3,North,2500.0,1,Low-Value Customers
+1313,Male,25,26.1,25.0,1,East,2500.0,1,Low-Value Customers
+1314,Male,39,90.9,84.6,7,North,2500.0,0,High-Value Customers
+1315,Female,39,69.8,81.3,9,North,2500.0,0,High-Value Customers
+1316,Male,35,75.4,57.7,8,North,2500.0,0,High-Value Customers
+1317,Male,49,71.6,96.2,4,North,2500.0,0,High-Value Customers
+1318,Male,37,67.6,27.1,4,South,2500.0,3,High-Income Low-Spend
+1319,Male,43,85.2,91.8,7,West,2500.0,0,High-Value Customers
+1320,Female,59,35.0,63.4,3,West,2500.0,2,Regular Engaged Customers
+1321,Female,61,64.1,53.7,1,North,2500.0,2,Regular Engaged Customers
+1322,Male,38,89.8,83.5,8,North,2500.0,0,High-Value Customers
+1323,Female,51,80.8,90.2,10,South,2500.0,0,High-Value Customers
+1324,Male,49,71.9,36.1,3,East,2500.0,3,High-Income Low-Spend
+1325,Male,46,59.1,57.4,7,East,2500.0,0,High-Value Customers
+1326,Female,37,61.5,28.1,7,West,2468.79,3,High-Income Low-Spend
+1327,Male,56,24.9,52.6,9,South,1455.27,2,Regular Engaged Customers
+1328,Female,34,48.2,45.0,5,North,2500.0,1,Low-Value Customers
+1329,Male,35,63.9,37.7,3,North,2500.0,3,High-Income Low-Spend
+1330,Female,52,81.5,80.4,7,North,2500.0,0,High-Value Customers
+1331,Male,34,79.5,20.2,1,North,2500.0,3,High-Income Low-Spend
+1332,Male,31,44.3,36.8,4,West,2500.0,1,Low-Value Customers
+1333,Female,33,76.7,27.6,3,South,2500.0,3,High-Income Low-Spend
+1334,Male,49,62.2,35.9,6,West,2500.0,2,Regular Engaged Customers
+1335,Male,18,36.9,27.7,1,East,2500.0,1,Low-Value Customers
+1336,Male,39,63.8,9.1,6,East,967.63,3,High-Income Low-Spend
+1337,Male,37,52.9,35.6,3,South,2500.0,3,High-Income Low-Spend
+1338,Male,47,86.5,38.2,2,West,2500.0,3,High-Income Low-Spend
+1339,Female,28,42.4,13.9,4,North,1473.4,1,Low-Value Customers
+1340,Female,70,48.4,71.2,5,North,2500.0,2,Regular Engaged Customers
+1341,Female,26,41.8,23.8,1,South,2500.0,1,Low-Value Customers
+1342,Male,63,55.7,44.1,7,South,2500.0,2,Regular Engaged Customers
+1343,Male,51,45.4,60.1,7,East,2500.0,2,Regular Engaged Customers
+1344,Female,36,83.5,30.8,5,East,2500.0,3,High-Income Low-Spend
+1345,Female,44,63.6,60.2,6,East,2500.0,0,High-Value Customers
+1346,Male,37,33.8,68.6,6,South,2500.0,2,Regular Engaged Customers
+1347,Female,34,52.4,49.0,8,South,2500.0,0,High-Value Customers
+1348,Male,26,40.0,43.8,1,West,2500.0,1,Low-Value Customers
+1349,Female,27,65.8,35.4,1,North,2500.0,3,High-Income Low-Spend
+1350,Male,18,46.2,26.0,2,East,2500.0,1,Low-Value Customers
+1351,Female,19,60.5,27.9,6,East,2500.0,3,High-Income Low-Spend
+1352,Female,21,54.6,25.2,2,West,2500.0,1,Low-Value Customers
+1353,Male,49,70.3,23.0,4,East,2500.0,3,High-Income Low-Spend
+1354,Male,48,84.1,20.6,4,South,2500.0,3,High-Income Low-Spend
+1355,Female,43,63.2,77.4,7,South,2500.0,0,High-Value Customers
+1356,Female,46,81.3,25.0,4,South,2500.0,3,High-Income Low-Spend
+1357,Male,57,36.1,61.5,5,South,2500.0,2,Regular Engaged Customers
+1358,Male,43,32.4,70.9,5,North,2500.0,2,Regular Engaged Customers
+1359,Female,56,53.9,80.9,14,East,2500.0,0,High-Value Customers
+1360,Female,26,47.1,39.6,2,North,2500.0,1,Low-Value Customers
+1361,Male,51,36.1,57.9,3,East,2500.0,2,Regular Engaged Customers
+1362,Male,25,42.5,21.9,2,West,2500.0,1,Low-Value Customers
+1363,Male,24,23.7,27.8,3,West,2196.2,1,Low-Value Customers
+1364,Male,24,53.9,31.8,2,North,2500.0,1,Low-Value Customers
+1365,Female,42,83.8,23.8,5,West,2500.0,3,High-Income Low-Spend
+1366,Male,41,79.4,93.7,9,North,2500.0,0,High-Value Customers
+1367,Male,36,46.5,68.6,5,South,2500.0,2,Regular Engaged Customers
+1368,Male,44,60.4,14.6,4,North,2204.6,3,High-Income Low-Spend
+1369,Female,28,72.1,90.9,1,North,2500.0,0,High-Value Customers
+1370,Female,40,31.7,54.3,4,North,2500.0,2,Regular Engaged Customers
+1371,Male,64,51.5,60.4,5,North,2500.0,2,Regular Engaged Customers
+1372,Female,29,29.4,40.6,1,West,2500.0,1,Low-Value Customers
+1373,Male,49,89.2,80.1,6,North,2500.0,0,High-Value Customers
+1374,Female,46,40.7,81.0,7,South,2500.0,2,Regular Engaged Customers
+1375,Male,26,45.1,39.8,1,East,2500.0,1,Low-Value Customers
+1376,Male,26,38.7,33.1,3,West,2500.0,1,Low-Value Customers
+1377,Female,61,31.1,56.9,8,West,2211.99,2,Regular Engaged Customers
+1378,Female,29,77.2,72.1,6,North,2500.0,0,High-Value Customers
+1379,Male,35,73.0,96.4,3,West,2500.0,0,High-Value Customers
+1380,Male,25,53.7,43.5,3,East,2500.0,1,Low-Value Customers
+1381,Female,35,63.6,19.5,4,North,2500.0,3,High-Income Low-Spend
+1382,Male,70,55.9,45.6,6,South,2500.0,2,Regular Engaged Customers
+1383,Male,44,24.2,66.2,7,West,2288.63,2,Regular Engaged Customers
+1384,Female,51,69.4,76.3,9,South,2500.0,0,High-Value Customers
+1385,Female,46,70.3,61.8,7,North,2500.0,0,High-Value Customers
+1386,Female,61,30.0,62.0,6,West,2500.0,2,Regular Engaged Customers
+1387,Female,42,77.6,21.7,1,West,2500.0,3,High-Income Low-Spend
+1388,Female,47,50.9,49.0,4,West,2500.0,2,Regular Engaged Customers
+1389,Female,18,55.5,40.3,5,West,2500.0,1,Low-Value Customers
+1390,Male,60,47.8,52.3,5,West,2500.0,2,Regular Engaged Customers
+1391,Female,32,97.0,33.0,3,South,2500.0,3,High-Income Low-Spend
+1392,Male,30,27.9,47.0,2,North,2500.0,1,Low-Value Customers
+1393,Female,40,79.7,31.5,4,East,2500.0,3,High-Income Low-Spend
+1394,Female,36,67.4,22.8,3,North,2500.0,3,High-Income Low-Spend
+1395,Male,37,36.9,24.1,2,South,2500.0,1,Low-Value Customers
+1396,Male,51,83.1,83.6,6,East,2500.0,0,High-Value Customers
+1397,Female,57,35.6,52.1,7,West,2500.0,2,Regular Engaged Customers
+1398,Female,49,63.2,69.4,7,South,2500.0,0,High-Value Customers
+1399,Female,56,52.0,80.8,3,South,2500.0,2,Regular Engaged Customers
+1400,Male,37,70.6,73.8,5,East,2500.0,0,High-Value Customers
+1401,Female,43,68.6,63.4,9,North,2500.0,0,High-Value Customers
+1402,Female,58,50.4,38.1,6,East,2500.0,2,Regular Engaged Customers
+1403,Female,58,31.7,55.1,5,East,2500.0,2,Regular Engaged Customers
+1404,Female,39,57.2,15.4,8,East,1101.1,3,High-Income Low-Spend
+1405,Male,43,51.8,65.7,3,South,2500.0,2,Regular Engaged Customers
+1406,Male,56,40.9,61.1,5,West,2500.0,2,Regular Engaged Customers
+1407,Female,52,75.9,76.3,10,South,2500.0,0,High-Value Customers
+1408,Female,57,49.3,47.7,3,East,2500.0,2,Regular Engaged Customers
+1409,Female,23,31.8,39.9,5,South,2500.0,1,Low-Value Customers
+1410,Female,50,56.3,70.1,5,North,2500.0,2,Regular Engaged Customers
+1411,Male,28,85.3,27.5,4,East,2500.0,3,High-Income Low-Spend
+1412,Male,32,58.2,14.8,5,North,1722.72,3,High-Income Low-Spend
+1413,Male,21,68.6,21.1,1,West,2500.0,3,High-Income Low-Spend
+1414,Male,56,57.3,55.7,6,East,2500.0,2,Regular Engaged Customers
+1415,Male,18,31.2,21.3,1,South,2500.0,1,Low-Value Customers
+1416,Male,27,15.6,18.8,2,South,1466.4,1,Low-Value Customers
+1417,Female,21,42.0,35.1,5,East,2500.0,1,Low-Value Customers
+1418,Female,58,53.4,55.0,6,South,2500.0,2,Regular Engaged Customers
+1419,Female,30,39.4,28.0,2,South,2500.0,1,Low-Value Customers
+1420,Male,44,46.2,54.0,4,South,2500.0,2,Regular Engaged Customers
+1421,Female,30,54.7,36.8,4,South,2500.0,3,High-Income Low-Spend
+1422,Male,20,46.1,26.4,1,West,2500.0,1,Low-Value Customers
+1423,Male,34,32.6,27.9,3,North,2500.0,1,Low-Value Customers
+1424,Male,34,38.2,20.0,4,West,1910.0,1,Low-Value Customers
+1425,Female,31,88.8,28.0,1,South,2500.0,3,High-Income Low-Spend
+1426,Female,55,61.4,72.3,9,East,2500.0,0,High-Value Customers
+1427,Female,19,47.1,24.8,3,North,2500.0,1,Low-Value Customers
+1428,Male,40,35.6,47.6,7,South,2420.8,2,Regular Engaged Customers
+1429,Male,32,40.8,18.5,2,West,2500.0,1,Low-Value Customers
+1430,Male,45,50.7,39.8,7,South,2500.0,2,Regular Engaged Customers
+1431,Female,45,15.0,35.6,8,North,667.5,2,Regular Engaged Customers
+1432,Female,48,34.5,73.1,8,East,2500.0,2,Regular Engaged Customers
+1433,Female,36,64.8,26.8,4,North,2500.0,3,High-Income Low-Spend
+1434,Male,66,46.2,63.0,7,South,2500.0,2,Regular Engaged Customers
+1435,Male,18,45.5,29.1,1,South,2500.0,1,Low-Value Customers
+1436,Female,18,27.8,37.3,3,East,2500.0,1,Low-Value Customers
+1437,Male,28,57.5,19.3,3,East,2500.0,3,High-Income Low-Spend
+1438,Female,38,59.9,28.3,1,East,2500.0,3,High-Income Low-Spend
+1439,Male,48,60.5,46.3,4,West,2500.0,2,Regular Engaged Customers
+1440,Female,45,67.4,27.7,3,North,2500.0,3,High-Income Low-Spend
+1441,Female,53,45.2,46.4,5,South,2500.0,2,Regular Engaged Customers
+1442,Male,22,61.0,31.1,6,North,2500.0,3,High-Income Low-Spend
+1443,Female,34,70.9,16.1,3,North,2500.0,3,High-Income Low-Spend
+1444,Female,28,53.9,34.2,6,North,2500.0,3,High-Income Low-Spend
+1445,Female,31,54.3,31.4,8,East,2131.28,3,High-Income Low-Spend
+1446,Female,31,59.6,17.1,9,West,1132.4,3,High-Income Low-Spend
+1447,Male,59,38.7,68.7,6,West,2500.0,2,Regular Engaged Customers
+1448,Male,53,51.0,25.6,3,East,2500.0,2,Regular Engaged Customers
+1449,Male,18,48.6,29.3,4,West,2500.0,1,Low-Value Customers
+1450,Female,57,64.1,24.2,4,North,2500.0,3,High-Income Low-Spend
+1451,Male,33,32.3,25.7,5,West,1660.22,1,Low-Value Customers
+1452,Female,55,21.6,41.5,8,West,1120.5,2,Regular Engaged Customers
+1453,Female,39,59.6,26.5,4,North,2500.0,3,High-Income Low-Spend
+1454,Female,32,24.4,23.6,4,South,1439.6,1,Low-Value Customers
+1455,Male,26,43.7,19.7,4,West,2152.22,1,Low-Value Customers
+1456,Male,34,42.9,33.4,3,South,2500.0,1,Low-Value Customers
+1457,Male,44,41.3,68.9,5,West,2500.0,2,Regular Engaged Customers
+1458,Female,35,69.1,80.0,6,West,2500.0,0,High-Value Customers
+1459,Female,56,47.2,64.8,8,South,2500.0,2,Regular Engaged Customers
+1460,Male,44,57.7,19.9,4,North,2500.0,3,High-Income Low-Spend
+1461,Male,31,55.5,24.0,3,South,2500.0,3,High-Income Low-Spend
+1462,Female,22,34.8,43.8,3,North,2500.0,1,Low-Value Customers
+1463,Female,70,43.7,51.8,5,South,2500.0,2,Regular Engaged Customers
+1464,Female,45,80.2,98.8,4,East,2500.0,0,High-Value Customers
+1465,Male,43,70.3,13.9,6,South,1628.62,3,High-Income Low-Spend
+1466,Female,47,58.6,27.9,1,North,2500.0,3,High-Income Low-Spend
+1467,Male,24,79.5,23.8,2,South,2500.0,3,High-Income Low-Spend
+1468,Female,54,36.8,49.8,6,East,2500.0,2,Regular Engaged Customers
+1469,Male,18,28.9,33.5,5,North,1936.3,1,Low-Value Customers
+1470,Female,47,60.7,36.4,2,North,2500.0,3,High-Income Low-Spend
+1471,Female,57,61.4,91.3,5,West,2500.0,0,High-Value Customers
+1472,Female,59,82.1,67.8,5,North,2500.0,0,High-Value Customers
+1473,Female,32,48.5,31.3,3,South,2500.0,1,Low-Value Customers
+1474,Male,32,39.3,19.1,1,North,2500.0,1,Low-Value Customers
+1475,Female,28,50.2,39.8,5,North,2500.0,1,Low-Value Customers
+1476,Male,45,84.0,71.3,7,South,2500.0,0,High-Value Customers
+1477,Female,36,60.0,81.3,8,East,2500.0,0,High-Value Customers
+1478,Female,42,74.0,30.2,5,North,2500.0,3,High-Income Low-Spend
+1479,Male,35,72.5,21.5,5,North,2500.0,3,High-Income Low-Spend
+1480,Female,48,67.0,78.5,5,North,2500.0,0,High-Value Customers
+1481,Male,38,61.5,90.7,10,East,2500.0,0,High-Value Customers
+1482,Male,30,57.7,30.1,9,West,1929.74,3,High-Income Low-Spend
+1483,Male,33,70.8,24.4,5,North,2500.0,3,High-Income Low-Spend
+1484,Female,49,73.6,95.8,8,South,2500.0,0,High-Value Customers
+1485,Female,28,28.9,36.2,3,South,2500.0,1,Low-Value Customers
+1486,Male,38,65.7,100.0,6,South,2500.0,0,High-Value Customers
+1487,Female,31,66.6,77.5,9,North,2500.0,0,High-Value Customers
+1488,Female,30,44.8,25.6,4,North,2500.0,1,Low-Value Customers
+1489,Female,28,61.2,19.7,2,East,2500.0,3,High-Income Low-Spend
+1490,Male,45,75.6,36.8,4,South,2500.0,3,High-Income Low-Spend
+1491,Male,42,48.6,35.8,4,South,2500.0,3,High-Income Low-Spend
+1492,Male,41,72.2,19.1,1,South,2500.0,3,High-Income Low-Spend
+1493,Male,29,74.2,34.2,1,West,2500.0,3,High-Income Low-Spend
+1494,Female,35,66.3,74.4,3,East,2500.0,0,High-Value Customers
+1495,Male,39,33.8,55.9,3,South,2500.0,2,Regular Engaged Customers
+1496,Female,34,79.6,16.3,4,North,2500.0,3,High-Income Low-Spend
+1497,Male,51,70.0,72.3,10,West,2500.0,0,High-Value Customers
+1498,Female,33,80.1,31.9,3,West,2500.0,3,High-Income Low-Spend
+1499,Male,46,78.8,88.2,5,North,2500.0,0,High-Value Customers
+1500,Female,36,67.3,34.3,2,West,2500.0,3,High-Income Low-Spend
